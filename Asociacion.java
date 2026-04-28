@@ -1,9 +1,9 @@
-public class Asosiacion<K extends Comparable<K>, V> implements Comparable<Asosiacion<K, V>> {
+public class Asociacion<K extends Comparable<K>, V> implements Comparable<Asociacion<K, V>> {
 
     private K key;
     private V value;
 
-    public Asosiacion(K key, V value) {
+    public Asociacion(K key, V value) {
         this.key = key;
         this.value = value;
     }
@@ -21,7 +21,7 @@ public class Asosiacion<K extends Comparable<K>, V> implements Comparable<Asosia
     }
 
     @Override
-    public int compareTo(Asosiacion<K, V> other) {
+    public int compareTo(Asociacion<K, V> other) {
         return this.key.compareTo(other.key);
     }
 

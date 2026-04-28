@@ -1,4 +1,4 @@
-public class Arbolbinario<E extends Comparable<E>> {
+public class ArbolBinario<E extends Comparable<E>> {
 
     private static class Node<E> {
         E data;
@@ -14,7 +14,7 @@ public class Arbolbinario<E extends Comparable<E>> {
 
     private Node<E> root;
 
-    public Arbolbinario() {
+    public ArbolBinario() {
         this.root = null;
     }
 
