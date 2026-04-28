@@ -37,7 +37,7 @@ public class Diccionario {
     }
 
     public void printInOrder() {
-        System.out.println("=== Diccionario (orden alfabético por inglés) ===");
+        System.out.println("Diccionario");
         tree.inOrder();
     }
 

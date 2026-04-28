@@ -5,6 +5,6 @@ public class Main {
         miDiccionario.printInOrder();   
         System.out.println("\nTraducción del Archivo");
         Traductor traductor = new Traductor();
-        traductor.procesarArchivo("texto.txt", miDiccionario); 
+        traductor.procesarArchivo("Texto.txt", miDiccionario); 
     }
 }
